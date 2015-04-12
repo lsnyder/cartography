@@ -1,0 +1,26 @@
+{
+  "name": "elastic-cartographer",
+  "version": "1.0.0",
+  "description": "Cli for making quick mapping changes and testing using Elasticsearch",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsnyder/elastic-cartographer.git"
+  },
+  "author": "Luke Snyder <lsbomber1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsnyder/elastic-cartographer/issues"
+  },
+  "preferGlobal": true,
+  "homepage": "https://github.com/lsnyder/elastic-cartographer",
+  "bin": {
+    "elastic-cartographer": "index.js"
+  },
+  "dependencies": {
+    "elasticsearch": "^4.0.2",
+    "optimist": "^0.6.1"
+  }
+}
